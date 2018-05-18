@@ -10,6 +10,15 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+    productFlavors{
+        qihoo{
+            applicationId "com.example.gtme.coolweather_1.qihoo"
+        }
+        baidu{
+            applicationId "com.example.gtme.coolweather_1.baidu"
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
